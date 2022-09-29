@@ -6,6 +6,7 @@ is a Web Server based on Northwind Database.
 - Express Js 
 - Sequelize ORM
 - NPM
+- JWT
 
 #### Database 
 - Mysql

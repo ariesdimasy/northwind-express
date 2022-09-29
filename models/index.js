@@ -1,5 +1,5 @@
 const product = require("./product");
-const model = {};
+const employee = require("./employee");
+const model = { product, employee };
 
-model.product = product;
 module.exports = model;
