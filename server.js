@@ -32,9 +32,8 @@ app.get("/", (req, res) => {
   });
 });
 
-const port = 4560;
-app.listen(port, () => {
-  console.log("northwind server run on ", port);
+app.listen(process.env.PORT, () => {
+  console.log("northwind server run on ", process.env.DB_NAME);
 });
 
 module.exports = app;
